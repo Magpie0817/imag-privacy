@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iMag 隐私政策</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+    line-height: 1.75; color: #1f2328; background: #f6f8fa;
+  }
+  main { max-width: 820px; margin: 0 auto; padding: 48px 24px 80px; }
+  .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 14px; padding: 36px 40px; box-shadow: 0 8px 28px rgba(0,0,0,.06); }
+  h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: .5px; }
+  .meta { color: #6b7280; font-size: 13px; margin: 0 0 28px; }
+  h2 { font-size: 18px; margin: 30px 0 10px; padding-top: 14px; border-top: 1px solid #eef0f3; }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  p, li { font-size: 15px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  code { background: #f1f3f5; padding: 1px 6px; border-radius: 5px; font-size: 13px; }
+  .note { background: #fff8e6; border: 1px solid #f5e0a3; border-radius: 10px; padding: 12px 16px; font-size: 14px; }
+  .todo { color: #b42318; font-weight: 600; }
+  footer { text-align: center; color: #9aa0a6; font-size: 12px; margin-top: 26px; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0d1117; color: #e6edf3; }
+    .card { background: #161b22; border-color: #30363d; box-shadow: none; }
+    h2 { border-top-color: #21262d; }
+    .meta, footer { color: #8b949e; }
+    code { background: #21262d; }
+    .note { background: #2a2413; border-color: #5c4d1a; }
+    .todo { color: #ff7b72; }
+  }
+  @media (max-width: 600px) { .card { padding: 24px 20px; } main { padding: 24px 12px 48px; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>iMag 隐私政策</h1>
+    <p class="meta">生效日期：2026 年 10 月 31 日　·　最后更新：2026 年 10 月 31 日</p>
+
+    <p>iMag（以下简称“本应用”）是一款运行于 Windows 的 iOS 设备信息与管理工具，基于开源项目 libimobiledevice 读取设备信息。我们重视你的隐私，本政策说明本应用会处理哪些数据、为何处理，以及你可以如何控制。</p>
+
+    <h2>1. 我们处理的信息</h2>
+    <ul>
+      <li><strong>设备信息（本地读取）</strong>：设备型号、系统版本、序列号、ECID、存储容量、电池健康、基带版本、已安装应用列表等。这些信息由本应用通过 USB 从你的 iOS 设备读取，用于在界面中展示和管理。</li>
+      <li><strong>验机快照（可选上传）</strong>：本功能默认开启；开启时，本应用会将设备的身份快照（包括 ECID、序列号、型号、存储容量、系统版本等）上传到我们配置的服务器，用于设备真伪核验与历史比对。你可以在「设置 → 隐私」中随时关闭。</li>
+      <li><strong>崩溃与诊断日志（上传）</strong>：当本应用发生异常时，会上传异常类型、错误信息、堆栈等诊断数据，用于定位和修复问题。日志不包含你的账户密码或设备中的照片、通讯录等内容。</li>
+      <li><strong>更新检查</strong>：本应用会向服务器发送当前应用版本号，以判断是否有新版本。</li>
+    </ul>
+    <p>我们<strong>不会</strong>收集你的姓名、手机号、身份证号、精确位置、通讯录、短信、照片或支付信息。</p>
+
+    <h2>2. 处理目的</h2>
+    <ul>
+      <li>在你的设备上展示设备信息、管理已安装应用；</li>
+      <li>提供验机（设备真伪 / 历史比对）功能；</li>
+      <li>诊断崩溃、改进稳定性；</li>
+      <li>检查并提示版本更新。</li>
+    </ul>
+
+    <h2>3. 数据存储与安全</h2>
+    <p>设备信息默认保存在你的本机；仅在开启相应开关时，验机快照与崩溃日志才会传输至我们的服务器。我们采取合理的技术与管理措施保护数据安全，并限制仅授权人员访问。请注意，任何网络传输都无法保证绝对安全。</p>
+
+    <h2>4. 数据共享</h2>
+    <p>我们<strong>不会</strong>出售你的数据，也不会将其用于广告投放。除以下情形外，我们不会向第三方共享：</p>
+    <ul>
+      <li>获得你的明确同意；</li>
+      <li>依据法律法规或有权机关的要求。</li>
+    </ul>
+
+    <h2>5. 数据保留与删除</h2>
+    <p>验机快照按设备 ECID 存储在服务器，用于后续比对。你可以随时联系我们要求删除相关记录；我们会在核实身份后合理期限内处理。</p>
+
+    <h2>6. 你的权利</h2>
+    <ul>
+      <li>关闭「自动上传验机数据」或「自动检查更新」；</li>
+      <li>要求查询、更正或删除你的设备记录；</li>
+      <li>随时停止使用本应用。</li>
+    </ul>
+
+    <h2>7. 儿童隐私</h2>
+    <p>本应用面向具备设备管理需求的普通用户，不面向儿童设计，也不会主动收集儿童的个人信息。</p>
+
+    <h2>8. 第三方组件</h2>
+    <p>本应用使用开源组件 libimobiledevice（通过 imobiledevice-net）在本地与 iOS 设备通信。该组件在本机运行，不构成对第三方的数据共享。</p>
+
+    <h2>9. 政策更新</h2>
+    <p>我们可能适时更新本政策。更新后会修改本页顶部的“最后更新”日期；重大变更时，我们会在应用内或本页作出提示。</p>
+
+    <h2>10. 联系我们</h2>
+    <p>如对本政策有任何疑问，或需要行使上述权利，请联系：<br>
+      邮箱：<strong>magpie0817@msn.com</strong><br>
+      我们会在收到请求后尽快回复。</p>
+
+    <p class="note">部署提示：若通过 Microsoft Store 发布，请确保本页可通过 HTTPS 公开访问，并把该 URL 填入商店的“隐私政策 URL”。</p>
+
+    <footer>© 2026 iMag. 本页仅为隐私政策说明。</footer>
+  </div>
+</main>
+</body>
+</html>
